@@ -1,5 +1,8 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("../assets/FundoCOnfirmacao.png");
+    background-size: cover;
+    background-repeat: none;
 }
 
 .tela-toda {

@@ -10,9 +10,9 @@ function GerarMenu() {
         <div class="links">
             <nav>
                 <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Historicos</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="solicitarServico.html">Solicitar serviço</a></li>
                 </ul>
             </nav>
         </div>

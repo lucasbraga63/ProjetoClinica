@@ -1,0 +1,96 @@
+.Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    min-height: 100px;
+}
+
+.titulo {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3c3b3b;
+}
+
+.containerCards {
+    width: 80%;
+    min-height: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 40px;
+}
+
+.cardServicos {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.233);
+    transition: 0.5s;
+}
+
+.cardServicos:hover{
+    transform: translateY(-2px);
+     box-shadow: 0 0 0 2px rgba(10, 86, 148, 0.596);
+}
+
+
+.cardServicos .imagem {
+    width: 100%;
+    height: 250px;
+}
+
+.cardServicos .imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardServicos .Informacao {
+    padding: 15px;
+}
+
+.cardServicos .Informacao h2 {
+    margin: 0 0 8px;
+    color: #494949;
+    font-size: 21px;
+}
+
+.cardServicos .Informacao p {
+    margin: 0;
+    color: #494949;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.cardServicos .botaoCard {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 30px;
+}
+
+.cardServicos .botaoCard button {
+    max-width: 300px;
+    min-width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3ca4dc;
+    color: rgb(238, 240, 242);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cardServicos .botaoCard span{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
